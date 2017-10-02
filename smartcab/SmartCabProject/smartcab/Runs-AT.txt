@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+Hypothesis:
+1- Not reseting Q values at build_state > +
+2- Creating smaller state space by Removing input['right']  > +
+3- playing with alpha alpha = 0.45 > +
+
+
+
+
+
+
+
+Best Configurtion so far:
+fetures: (waypoint, inputs['light'], inputs['oncoming'], inputs['left'])
+alpha = 0.5
+gamma = 1.0
+n_test = 25
+tolerance = 0.01
+math.exp(-0.05 * self.iter)
+
+
+
+Now:
+epsilon = 0.5
+
+
